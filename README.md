@@ -2,7 +2,7 @@
 
 Official implementation of CVPR 2022 paper([MixSTE: Seq2seq Mixed Spatio-Temporal Encoder for 3D Human Pose Estimation in Video](https://arxiv.org/abs/2203.00859)).
 
-Note: Here are core codes of our work. We are organizing codes and prepare to submit to the [mmpose](https://github.com/open-mmlab/mmpose) as soon as possible.
+Note: Here are core codes of our work. This work is based on the [VideoPose3D](https://github.com/facebookresearch/VideoPose3D), some fundamental codes canbe found there. At the same time, We are organizing codes and prepare to submit to the [mmpose](https://github.com/open-mmlab/mmpose) as soon as possible.
 
 
 <p align="center"> <img src="./assets/SittingDown_s1.gif" width="80%"> </p> 
