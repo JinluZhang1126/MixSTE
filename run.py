@@ -35,12 +35,6 @@ from common.logging import Logger
 from torch.utils.tensorboard import SummaryWriter
 from datetime import datetime
 
-seed = 1126
-torch.manual_seed(seed) 
-torch.cuda.manual_seed(seed) 
-torch.cuda.manual_seed_all(seed)  # if you are using multi-GPU
-np.random.seed(seed)  # Numpy module.
-# random.seed(seed)  # Python random module.
 #cudnn.benchmark = True       
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
