@@ -19,7 +19,7 @@ The code is conducted under the following environment:
 You can create the environment as follows:
 
 ```bash
-conda env create -f requirements.yml
+conda env create -f requirements.yaml
 ```
 
 ## Dataset
@@ -50,7 +50,7 @@ if you want to take place of attention module with more efficient attention desi
 - https://github.com/lucidrains/routing-transformer
 - https://arxiv.org/abs/2006.04768
 
-# Visulization
+# Visualization
 
 Please refer to the https://github.com/facebookresearch/VideoPose3D#visualization.
 
