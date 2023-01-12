@@ -860,8 +860,8 @@ if args.render:
             anim_output['Ours'] = prediction
             # print(prediction_pf.shape, prediction.shape)
         else:
-            # anim_output = {'Reconstruction': prediction}
-            anim_output = {'Reconstruction': ground_truth + np.random.normal(loc=0.0, scale=0.1, size=[ground_truth.shape[0], 17, 3])}
+            anim_output = {'Reconstruction': prediction}
+            # anim_output = {'Reconstruction': ground_truth + np.random.normal(loc=0.0, scale=0.1, size=[ground_truth.shape[0], 17, 3])}
         
         if ground_truth is not None and not args.viz_no_ground_truth:
             anim_output['Ground truth'] = ground_truth
