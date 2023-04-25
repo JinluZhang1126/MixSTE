@@ -32,7 +32,7 @@ Please refer it to set up the MPI-INF-3DHP dataset (also under ./data directory)
 
 # Evaluation
 
-* [ ] Download the checkpoints from [Baidu Disk](https://pan.baidu.com/s/1Gu7ItpkU0Q7SF_QVmlQ15A)(wnjf);
+* [ ] Download the checkpoints from [Baidu Disk](https://pan.baidu.com/s/1Gu7ItpkU0Q7SF_QVmlQ15A)(wnjf) [Google Drive](https://drive.google.com/drive/folders/1G2mlMHebM6KcbI45FszlosIHgA4jiR3Y?usp=sharing);
 
 Then run the command below (evaluate on 243 frames input):
 
